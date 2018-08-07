@@ -4,17 +4,24 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "dev": "haul --config config/webpack.haul.js"
   },
   "dependencies": {
     "react": "16.2.0",
-    "react-native": "0.53.0"
+    "react-native": "0.53.0",
+    "tslib": "1.9.3"
   },
   "devDependencies": {
+    "@types/react": "^16.4.8",
+    "@types/react-native": "^0.56.6",
+    "awesome-typescript-loader": "^5.2.0",
     "babel-jest": "23.4.2",
     "babel-preset-react-native": "4.0.0",
+    "haul": "^1.0.0-rc.6",
     "jest": "23.4.2",
-    "react-test-renderer": "16.2.0"
+    "react-test-renderer": "16.2.0",
+    "typescript": "^3.0.1"
   },
   "jest": {
     "preset": "react-native"
