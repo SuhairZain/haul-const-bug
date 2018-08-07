@@ -1,6 +1,10 @@
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
+import delay from 'delay';
+
+delay();
+
 class App extends PureComponent {
     render() {
         return (
